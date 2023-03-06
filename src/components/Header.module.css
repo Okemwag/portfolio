@@ -1,0 +1,70 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .brand {
+    display: grid;
+    grid-template-columns: 30px auto;
+    max-width: 300px;
+    gap: 10px;
+    place-items: center;
+  }
+  
+  .brand:hover {
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans;
+    color: #2c2851;
+  }
+  
+  .toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+  }
+  
+  .item {
+    color: #2c2851;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .toggle {
+      display: block;
+      height: 35px;
+    }
+  
+    .navigation {
+      display: grid;
+      gap: 0px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 22px;
+      font-weight: bold;
+      height: 100vh;
+      background-color: #efeff1;
+    }
+  
+    .item {
+      width: 100vw;
+    }
+  }

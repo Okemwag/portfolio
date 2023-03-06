@@ -1,0 +1,50 @@
+.wrapper {
+    margin: 50px 0;
+  }
+  
+  .profile {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .buttonBox {
+    max-width: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 0 auto;
+  }
+  
+  .button {
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .project {
+    background-color: #2c2851;
+    color: white;
+  }
+  
+  .project:hover {
+    cursor: pointer;
+  }
+  
+  .hire {
+    background-color: #6cf5c2;
+    color: white;
+  }
+  
+  .hire:hover {
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 560px) {
+    .buttonBox {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+    }
+  }

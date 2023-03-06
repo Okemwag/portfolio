@@ -1,0 +1,34 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+    color: #2c2851;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .description {
+    color: #85819f;
+  }
+  
+  @media only screen and (max-width: 560px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  }

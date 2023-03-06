@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+}
+
+body {
+  background-color: #efeff1;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  margin: 40px 0 20px 0;
+  color: #2c2851;
+  font-size: 40px;
+}
+
+.description {
+  margin-bottom: 30px;
+  color: #85819f;
+  font-size: 18px;
+}
+
+.App {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}

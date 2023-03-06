@@ -1,0 +1,65 @@
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+  }
+  
+  .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  
+  .textareas {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 30px;
+  }
+  
+  .textarea {
+    min-height: 150px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .send {
+    background-color: #6cf5c2;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .send:hover {
+    background-color: #1fffad;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  @media only screen and (max-width: 560px) {
+    .inputs {
+      grid-template-columns: 1fr;
+    }
+  
+    .textareas {
+      grid-template-columns: 1fr;
+    }
+  
+    .send {
+      min-height: 50px;
+    }
+  }
